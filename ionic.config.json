@@ -1,0 +1,7 @@
+{
+  "name": "KarangkrafApp",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
