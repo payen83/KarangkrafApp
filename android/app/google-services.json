@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "909812974643",
+    "project_id": "karangkrafappx123",
+    "storage_bucket": "karangkrafappx123.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:909812974643:android:924d90e78a4f017697cf46",
+        "android_client_info": {
+          "package_name": "com.karangkraf.app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "909812974643-ii033eue3cr31rb26tdck7ggb5cm52ov.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB7QyyVtl52fcf2VxXorFGnYcnc5Ec3DIY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "909812974643-ii033eue3cr31rb26tdck7ggb5cm52ov.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

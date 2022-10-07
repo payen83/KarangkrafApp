@@ -6,6 +6,7 @@ import { Injectable } from '@angular/core';
 })
 export class ApiService {
   baseURL: string = 'https://nre.appsmalaya.com/warehouse/api';
+  barcodeText: string = null;
   constructor(private httpClient: HttpClient) { }
 
   httpGet(path: string){

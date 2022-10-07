@@ -1,17 +1,21 @@
 <ion-header [translucent]="true">
   <ion-toolbar>
     <ion-title>
-      Tab 3
+      Check Connection
     </ion-title>
   </ion-toolbar>
 </ion-header>
 
 <ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">Tab 3</ion-title>
-    </ion-toolbar>
-  </ion-header>
+  <div *ngIf="showContent">
+    <h2>Network Checker</h2>
+    <ion-button expand="block" (click)="checkNetwork()">Check Connection</ion-button>
+    <h2>Barcode Scanner</h2>
+    <ion-button expand="block" (click)="scanBarcode()">Scan Barcode</ion-button>
+    <p>{{ barcodeText }}</p>
+  </div>
 
-  <app-explore-container name="Tab 3 page"></app-explore-container>
 </ion-content>
+<ion-footer *ngIf="!showContent">
+  <ion-button expand="full" fill="clear" (click)="cancel()">Cancel</ion-button>
+</ion-footer>
